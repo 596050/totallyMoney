@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "types": ["react", "node"],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules/**/*", "cypress"]
+}

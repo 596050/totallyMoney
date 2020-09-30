@@ -1,0 +1,20 @@
+### react ###
+**/*.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+*.env
+*.lock
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+cypress/support/videos/**/*
+cypress/support/screenshots/**/*
